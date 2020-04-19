@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_microsoft"
+            android:icon="@mipmap/microsoft"
+            android:title="Microsoft" />
+        <item
+            android:id="@+id/nav_google"
+            android:icon="@mipmap/google"
+            android:title="Google" />
+        <item
+            android:id="@+id/nav_android"
+            android:icon="@mipmap/android"
+            android:title="Android" />
+        <item
+            android:id="@+id/nav_apple"
+            android:icon="@mipmap/apple"
+            android:title="Apple" />
+        <item
+            android:id="@+id/nav_science"
+            android:icon="@mipmap/science"
+            android:title="Science" />
+
+        <item
+            android:id="@+id/nav_dbb"
+            android:icon="@mipmap/saved"
+            android:title="Sačuvano" />
+    </group>
+</menu>

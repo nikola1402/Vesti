@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_engaget"
+            android:icon="@mipmap/engadget_logo"
+            android:title="Engaget" />
+        <item
+            android:id="@+id/nav_ign"
+            android:icon="@mipmap/ign_logo"
+            android:title="IGN" />
+        <item
+            android:id="@+id/nav_tc"
+            android:icon="@mipmap/tc_logo"
+            android:title="TechCrunch" />
+        <item
+            android:id="@+id/nav_verge"
+            android:icon="@mipmap/verge_logo"
+            android:title="TheVerge" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_dbb"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Sačuvano" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
